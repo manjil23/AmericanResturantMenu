@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Menu {
+  width: 400px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Menu > img {
+  width: 400px;
+  height: 240px;
+  margin-bottom: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.AllMenu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 40px;
+  justify-items: center;
+}
+
+.Price {
+  background-color: #fbbf24;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 20;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+}
+
+.para {
+  float: left;
+  display: inline;
+  margin: 0px;
+}
+
+.btn button {
+  margin: 10px;
+  background-color: #fbbf24;
+}
+
+.underline {
+  text-decoration: underline #fbbf24;
+  text-underline-offset: 30px;
+  margin-bottom: 60px;
+}
